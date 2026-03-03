@@ -1,0 +1,16 @@
+[
+  {
+    "role": "user",
+    "content": "What permits do I need?",
+    "location": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": null,
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! In San Jose, CA, most home renovation and construction projects require permits to ensure safety, structural integrity, and compliance with local building codes.\n\n**Common Projects Requiring Permits:**\n*   **Building Permits:**\n    *   Additions, major remodels, structural changes (e.g., wall removal, foundation work).\n    *   New deck construction, re-roofing (if structural changes or weight increase).\n    *   Conversion of space (e.g., garage to living space, ADU).\n*   **Electrical Permits:**\n    *   New wiring, circuit additions, panel upgrades, major electrical modifications.\n*   **Plumbing Permits:**\n    *   New water heaters, re-piping, significant drain line changes, adding new fixtures.\n*   **Mechanical (HVAC) Permits:**\n    *   New furnace/AC installation, ductwork modifications, fireplace installation.\n*   **Demolition Permits:**\n    *   Partial or full demolition of structures.\n*   **Zoning/Use Permits:**\n    *   Changes to property use, new fences over specific heights, retaining walls, significant grading.\n\n**Why Permits Are Essential:**\n*   **Safety:** Ensures work meets minimum safety standards.\n*   **Code Compliance:** Guarantees adherence to San Jose's specific building codes.\n*   **Property Value:** Legally permitted work protects your investment.\n*   **Insurance:** Unpermitted work may void insurance claims.\n\n**How to Determine Specific Permit Needs:**\n1.  **Define Your Project:** Clearly outline all work involved.\n2.  **Contact Local Authorities:** The **City of San Jose Planning and Building Department** is your primary resource.\n    *   Visit their official website or call their permit counter directly.\n    *   Be prepared to describe your project in detail.\n3.  **Professional Guidance:** Licensed contractors, architects, or designers can help identify required permits and navigate the application process.\n\n**Crucial Advice:**\n*   **Always inquire about permits *before* starting any work.**\n*   **Requirements vary greatly; do not assume minor projects are exempt.**\n*   Unpermitted work can lead to fines, required demolition/rebuild, and difficulties selling your home.\n\nYour safety and compliance are paramount."
+  }
+]

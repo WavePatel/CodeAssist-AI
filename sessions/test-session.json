@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "Hello, can you help me with home design?",
+    "location": null
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! I'm your home design assistant. I can help with construction, permits, and design questions. To get real AI responses, please add your Gemini API key."
+  },
+  {
+    "role": "user",
+    "content": "Hello, can you help me with permits?",
+    "location": 

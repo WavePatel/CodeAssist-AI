@@ -1,0 +1,16 @@
+[
+  {
+    "role": "user",
+    "content": "Can I build a second floor on my house?",
+    "location": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95112",
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "I'm here to help with home design and construction questions! For full AI-powered responses, please add your Gemini API key to the .env file. In demo mode, I can provide general guidance on permits, construction, and design topics."
+  }
+]

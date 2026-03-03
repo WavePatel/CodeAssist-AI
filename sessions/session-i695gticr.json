@@ -1,0 +1,15 @@
+[
+  {
+    "role": "user",
+    "content": "Can I provide canopy of 10 ft in the front of the building within the plot area of 25 ft x 25 ft?",
+    "location": {
+      "zip": "95120",
+      "country": "US"
+    },
+    "user_type": "Architect"
+  },
+  {
+    "role": "assistant",
+    "content": "In the City of San Jose (Zip: 95120), a 10-foot canopy on a 25' x 25' lot presents significant zoning and code challenges. Given the small lot size, you are likely dealing with a non-conforming lot or a specific urban infill project.\n\n### Key Constraints\n\n*   **Front Setbacks:** San Jose Municipal Code (Title 20) typically requires front setbacks of 15 to 25 feet in residential zones (R-1, R-M). A 10-foot canopy on a lot only 25 feet deep would almost certainly encroach into the required setback.\n*   **Permissible Encroachments:** Under SJMC Section 20.30.410, architectural projections (like eaves or awnings) are generally limited to **2.5 to 3 feet** into a required setback. A 10-foot projection exceeds standard allowances.\n*   **Lot Coverage:** On a 625 sq. ft. lot, a 10' x 25' canopy (250 sq. ft.) represents 40% lot coverage. This may exceed the maximum allowable coverage when combined with the primary structure.\n*   **Floor Area Ratio (FAR):** Depending on the canopy's construction, it may count toward your total FAR, further restricting the size of the main building.\n\n### Structural & Safety Considerations\n\n*   **Cantilever vs. Posts:**\n    *   **Post-supported:** If the canopy has posts, it is usually considered part of the building footprint and must meet all setback requirements.\n    *   **Cantilevered:** While avoiding \"footprint\" status, 10-foot cantilevers require significant structural engineering to meet California Building Code (CBC) seismic and wind load requirements.\n*   **Fire Separation:** Because the lot is small, the canopy’s proximity to property lines may trigger fire-resistance requirements under CRC/CBC Table R302.1.\n\n### Recommended Actions\n\n1.  **Verify Zoning District:** Confirm if the lot is R-1, R-M, or a Commercial zone. Setback rules vary significantly between these.\n2.  **Request a Zoning Search:** Contact the **San Jose Planning Division** to see if there are specific setbacks for \"Substandard Lots.\"\n3.  **Check for Easements:** Ensure no Public Utility Easements (PUE) exist in the front 10 feet of the lot.\n4.  **Variance/Exception:** A 10-foot canopy into a setback would require a **Variance** or **Administrative Exception**, which are difficult to obtain unless you can prove a unique hardship.\n5.  **Permitting:** A canopy of this size requires a formal Building Permit and structural calculations stamped by a licensed engineer.\n\n**Conclusion:** A 10-foot canopy is likely too deep for a 25-foot lot under standard San Jose codes. Reducing the depth to 3 feet or less may allow you to qualify as a \"permitted encroachment.\""
+  }
+]

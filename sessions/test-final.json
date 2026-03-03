@@ -1,0 +1,30 @@
+[
+  {
+    "role": "user",
+    "content": "Hello, can you help me with home design?",
+    "location": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95112",
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! Absolutely. As a home design and building code consultant chatbot specializing in San Jose, CA, I would be happy to help you.\n\nMy primary goal is to help you create a beautiful, functional, and safe space that complies with all local regulations.\n\nTo give you the most accurate and helpful advice, please tell me a little more about what you have in mind. For example, are you thinking about:\n\n*   **A new construction project?**\n*   **An addition to your home** (e.g., a new bedroom or family room)?\n*   **An Accessory Dwelling Unit (ADU)**, also known as a granny flat or in-law unit?\n*   **A renovation of a specific room** (like a kitchen or bathroom)?\n*   **Exterior work** (like a new deck, patio cover, or fence)?\n*   **Converting a garage** into living space?\n\nBased on your project, I can provide guidance on key topics for your **San Jose, 95112** location, including:\n\n*   **The San Jose Permit Process:** Understanding when a permit is required and how to navigate the city's application system.\n*   **Zoning & Regulations:** Information on setbacks, lot coverage, height limits, and other rules specific to your property.\n*   **Building Codes:** Key requirements from the California Building Code (CBC) for structural, electrical, plumbing, and energy efficiency.\n*   **Design & Layout:** Best practices for creating functional and aesthetically pleasing spaces.\n*   **Budgeting & Cost Estimates:** Typical cost ranges for various projects in the San Jose area.\n*   **Hiring Professionals:** Advice on finding and vetting a qualified architect, engineer, or licensed contractor.\n\nLet me know what's on your mind, and we can get started. The more detail you can provide, the better I can assist you."
+  },
+  {
+    "role": "user",
+    "content": "What permits do I need for a bathroom remodel?",
+    "location": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": null,
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "For a bathroom remodel in San Jose, CA, it's highly likely you will need permits, especially if the project involves changes beyond minor cosmetic updates.\n\nHere's a breakdown of when permits are typically required:\n\n**Permits Are Required If Your Remodel Involves:**\n\n1.  **Plumbing Changes:**\n    *   Moving the location of a toilet, sink, shower, or tub.\n    *   Adding new plumbing fixtures.\n    *   Altering drain lines or supply lines.\n2.  **Electrical Changes:**\n    *   Adding new outlets or light fixtures.\n    *   Relocating existing electrical devices.\n    *   Upgrading electrical wiring or circuits (e.g., for a new exhaust fan or heated flooring).\n3.  **Structural Changes:**\n    *   Removing or altering load-bearing walls.\n    *   Cutting new openings in walls for windows or doors.\n    *   Any work that affects the structural integrity of your home.\n4.  **Significant Layout Changes:**\n    *   Even if not strictly structural, moving walls to significantly change the room's footprint.\n5.  **Changes to Mechanical Systems:**\n    *   Installing or relocating exhaust fans that require new ductwork.\n6.  **Work Affecting Accessibility:**\n    *   If you're making changes for accessibility, these often require specific code compliance.\n\n**Permits Are Generally NOT Required For (Minor Cosmetic Work):**\n\n*   Painting, wallpapering, or installing new tile.\n*   Replacing a vanity, toilet, sink, or tub in the **exact same location** without altering the existing plumbing or electrical connections.\n*   Replacing flooring (provided no subfloor structural changes are made).\n*   Replacing light fixtures without altering wiring or adding new circuits.\n\n**Why Permits Matter:**\n\nPermits ensure your remodel meets the California Building Code (CBC) and local San Jose amendments, which covers safety, structural integrity, energy efficiency, and proper installation of plumbing and electrical systems. This protects your home's value and your family's safety, and avoids potential issues during future home sales.\n\n**Actionable Advice:**\n\n1.  **Detail Your Project:** Clearly list all proposed changes for your bathroom remodel.\n2.  **Contact San Jose Planning & Building:** The **City of San Jose Planning & Building Division** is your primary resource. Visit their website or call them to discuss your specific project. They can confirm permit requirements based on your scope of work.\n3.  **Consider a Licensed Contractor:** A licensed general contractor familiar with San Jose regulations can help you determine what permits are needed, prepare the necessary plans, and often pull the permits on your behalf.\n4.  **Plan Review & Inspections:** Once permits are issued, your project will be subject to inspections at various stages (e.g., rough-in plumbing, electrical, framing, final inspection) to ensure compliance.\n\nAlways err on the side of caution and verify permit requirements with the City of San Jose before starting any work."
+  }
+]

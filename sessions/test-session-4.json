@@ -1,0 +1,16 @@
+[
+  {
+    "role": "user",
+    "content": "I need help with permits for building a deck",
+    "location": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95112",
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "I can help with home design, building codes, permits, and construction questions. For full functionality, please set up your Gemini API key."
+  }
+]

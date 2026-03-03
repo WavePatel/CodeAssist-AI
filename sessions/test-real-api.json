@@ -1,0 +1,16 @@
+[
+  {
+    "role": "user",
+    "content": "Hello, can you help me with home design?",
+    "location": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95112",
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! I'm your home design assistant. I can help with construction, permits, and design questions. To get real AI responses, please add your Gemini API key."
+  }
+]

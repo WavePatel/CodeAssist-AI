@@ -1,0 +1,16 @@
+[
+  {
+    "role": "user",
+    "content": "Hello",
+    "location": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95112",
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! Welcome. As your home design and building code consultant for San Jose, CA, I'm ready to help you with your project.\n\nI can provide guidance on:\n*   Home design and renovation projects\n*   Building codes and regulations\n*   Construction best practices\n*   Permits and zoning requirements\n*   Safety considerations\n*   Material recommendations\n*   Cost estimates and budgeting\n\n**Key Considerations for San Jose, CA:**\n*   **Local Codes:** Always prioritize compliance with City of San Jose Planning and Building Divisions' codes and zoning.\n*   **Permits:** Most structural, electrical, plumbing, or significant cosmetic changes will require permits. Check with the City of San Jose.\n*   **Seismic Activity:** San Jose is in an earthquake zone; seismic considerations are critical for structural projects.\n\nPlease tell me about your project or what question I can help you with today."
+  }
+]

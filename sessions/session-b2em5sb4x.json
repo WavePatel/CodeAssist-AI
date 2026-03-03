@@ -1,0 +1,30 @@
+[
+  {
+    "role": "user",
+    "content": "Hello",
+    "location": {
+      "city": "San Jose",
+      "state": "California",
+      "zip": "95112",
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! Welcome. As your home design and building code consultant, I'm ready to help you with your project in San Jose, California.\n\nI can provide guidance on:\n*   Home design and renovations\n*   Building codes and regulations specific to San Jose (e.g., California Building Standards Code, local amendments)\n*   Construction best practices\n*   Permits and zoning requirements for your area\n*   Safety considerations\n*   Material recommendations\n*   Cost estimates and budgeting\n\nTo get started, please tell me about your project or what specific questions you have. The more details you provide, the better I can assist you. Remember, for any specific legal or code interpretations, always consult directly with the City of San Jose Planning and Building Departments.\n\nWhat can I help you with today?"
+  },
+  {
+    "role": "user",
+    "content": "Can I build a 2-storey house in this zip code?",
+    "location": {
+      "city": "San Jose",
+      "state": "California",
+      "zip": "95112",
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, generally, building a 2-story house is permissible in many residential zoning districts within San Jose, including your zip code (95112). However, several critical factors determine the exact feasibility and specific requirements for *your* property: * **Zoning District:** * The most crucial step is to determine the specific zoning designation for your property (e.g., R-1, R-M, etc.). This governs building height, setbacks, lot coverage, and other development standards. * **Action:** You can find your property's zoning on the City of San Jose Planning Department's website (often via an interactive map) or by contacting them directly. * **Key Zoning & Building Code Considerations:** * **Maximum Height:** Each zoning district has a maximum allowed building height (e.g., 30 feet, 35 feet), which includes all parts of the structure. * **Setbacks:** Required distances from property lines (front, side, rear) will impact the footprint and placement of your 2-story home. * **Floor Area Ratio (FAR):** Some zones may have an FAR limit, restricting the total square footage of all floors relative to your lot size. * **Lot Coverage:** A maximum percentage of your lot that can be covered by structures. * **California Building Standards Code:** All construction must comply with the current California Building Standards Code, including specific seismic design requirements for San Jose. * **Fire Safety:** Two-story homes have specific fire egress and safety requirements. * **Permits Required:** * A major construction project like a 2-story house requires comprehensive permits from the City of San Jose Planning and Building Departments (e.g., Planning Permits, Building Permits, Grading Permits). * **Actionable Advice:** 1. **Identify Zoning:** Use the City of San Jose's online resources or call the Planning Department to confirm your property's exact zoning district. 2. **Review Standards:** Once you know your zoning, consult the City of San Jose's Zoning Ordinance (available online) for the specific height, setback, and other development standards applicable to your zone. 3. **Consult City Staff:** Schedule a pre-application meeting or speak with a planner at the City of San Jose Planning and Building Departments. They can provide definitive guidance based on your property. 4. **Professional Help:** For a project of this scale, engaging a licensed architect and structural engineer is highly recommended to design a code-compliant and structurally sound home. A reputable general contractor will also be essential. * **Safety & Code Compliance:** Emphasize that all designs and construction must strictly adhere to local and state building codes to ensure..."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "role": "user",
+    "content": "Can I make 120 floor building",
+    "location": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95112",
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "In short: **No.** You cannot build a 120-story building in San Jose, CA (95112). \n\nHere are the primary reasons why this project is not feasible:\n\n### 1. FAA Height Restrictions (The \"Hard\" Limit)\nSan Jose’s downtown and surrounding areas are directly in the flight paths of **Mineta San Jose International Airport (SJC)**. \n*   **The Limit:** To ensure aviation safety, the FAA and the City of San Jose impose strict height limits. Most buildings in the downtown core are capped at approximately **285 to 300 feet** (roughly 20–28 stories).\n*   **Aviation Surfaces:** Any structure exceeding these limits would interfere with emergency \"One Engine Inoperative\" (OEI) departure procedures.\n\n### 2. Zoning and the General Plan\nThe **Envision San Jose 2040 General Plan** and local zoning ordinances dictate maximum building heights and Floor Area Ratios (FAR).\n*   Even in the densest \"Transit Residential\" or \"Downtown\" zones, there is no provision for \"supertall\" skyscrapers (typically defined as 300+ meters).\n\n### 3. Seismic Safety\nSan Jose is located near major fault lines (San Andreas and Hayward).\n*   **Building Code:** The California Building Code (CBC) requires extreme engineering for high-rise structures in seismic zones. \n*   While 120-story buildings exist globally, the cost of making such a structure earthquake-safe in San Jose would be financially astronomical.\n\n### 4. Infrastructure and Environmental Impact\n*   **Utilities:** A 120-story building would overwhelm the existing water, sewage, and power grid in the 95112 area.\n*   **CEQA:** The California Environmental Quality Act (CEQA) would require years of studies on shadow impacts, wind tunnels, and traffic, which a project of this scale would likely fail.\n\n### Actionable Next Steps (If you want to build tall):\n1.  **Contact the San Jose Planning Division:** Ask for the specific height limit for your exact parcel in the 95112 zip code.\n2.  **Consult the Airport Land Use Commission (ALUC):** They oversee safety zones surrounding SJC.\n3.  **Hire a Land Use Attorney:** If you intend to challenge current zoning, you will need specialist legal counsel.\n4.  **Review the FAA \"Notice of Proposed Construction\":** You would need to file Form 7460-1 with the FAA to get a formal determination of \"No Hazard to Air Navigation,\" which would be denied for a 120-story height.\n\n**Professional Recommendation:** Focus on high-density residential or mixed-use projects within the city’s established height limits (typically 18–25 stories in the downtown core)."
+  }
+]

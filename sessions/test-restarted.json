@@ -1,0 +1,16 @@
+[
+  {
+    "role": "user",
+    "content": "What are the basic steps for home renovation?",
+    "location": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": null,
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Here are the basic steps for a home renovation project in San Jose, CA:\n\n*   **1. Define Project Scope & Budget:** Clearly outline what you want to achieve (e.g., kitchen remodel, bathroom addition). Establish a realistic budget, including a 15-20% contingency for unexpected issues.\n*   **2. Design & Plan:** Sketch out your ideas, gather inspiration, and consider layouts, materials, and overall aesthetics. For major structural changes, significant additions, or complex system alterations, consult with a licensed architect or professional designer.\n*   **3. Research San Jose Codes & Permits (CRITICAL):**\n    *   **Contact the City of San Jose Planning and Building Department *before* starting any work.** Many projects – including electrical, plumbing, structural, additions, major renovations, and even some window replacements – require permits.\n    *   Understand local zoning regulations for additions or changes to your home's exterior.\n    *   Be aware of California's specific earthquake-related building codes.\n    *   Failure to obtain necessary permits can result in fines, stop-work orders, and difficulties when selling your home.\n*   **4. Hire Professionals (If Needed):** For complex projects, get multiple bids from licensed, insured, and reputable general contractors, electricians, plumbers, etc. Verify licenses through the California Contractors State License Board (CSLB). Ensure all agreements (scope, timeline, costs) are in writing.\n*   **5. Prepare Your Home:** Protect areas not under renovation with drop cloths and dust barriers. Arrange for waste disposal (e.g., dumpster rental). If your home is older, consider testing for hazardous materials like asbestos or lead paint *before* demolition.\n*   **6. Demolition (If Applicable):** Prioritize safety. Wear appropriate Personal Protective Equipment (PPE). If working near utilities, ensure they are safely disconnected.\n*   **7. Construction & Installation:** Follow approved plans, building codes, and manufacturer instructions. Maintain a clean, organized, and safe worksite at all times.\n*   **8. Schedule Inspections:** Arrange for required inspections with the City of San Jose Building Department at various stages (e.g., rough-in framing, electrical, plumbing, insulation, and final inspection). Do not cover up work before it has been inspected and approved.\n*   **9. Finishing & Clean-up:** Complete all cosmetic work (painting, flooring, fixture installation). Conduct a final walkthrough, address any remaining \"punch list\" items, and thoroughly clean the renovated space."
+  }
+]
