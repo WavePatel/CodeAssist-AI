@@ -2,4 +2,15 @@
   {
     "role": "user",
     "content": "Can I build 2 story house in this given zip code location?",
-    "location": 
+    "location": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95112",
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, building a 2-story house is generally possible in San Jose. You will need to verify zoning for your specific property and obtain building permits from the City of San Jose Planning and Building Departments."
+  }
+] 

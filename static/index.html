@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Design Chatbot</title>
+    <title>CodeAssist AI - Home Design ChatBot</title>
     <style>
         * {
             margin: 0;
@@ -48,6 +48,21 @@
             margin-bottom: 20px;
             font-size: 3rem;
             font-weight: 700;
+            text-align: center;
+        }
+
+        .project-title .main-name {
+            display: block;
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.1;
+        }
+
+        .project-title .tagline {
+            display: block;
+            font-size: 2rem;
+            font-weight: 600;
+            margin-top: 0;
         }
 
         .subtitle {
@@ -171,6 +186,14 @@
             color: #333;
             border: 2px solid #e0e0e0;
         }
+        /* markdown within bot messages */
+        .bot-message ul,
+        .bot-message ol {
+            margin: 0.5em 0 0.5em 1.2em;
+        }
+        .bot-message li {
+            margin-bottom: 0.3em;
+        }
 
         .location-inputs {
             display: grid;
@@ -270,6 +293,108 @@
             40% { transform: scale(1); opacity: 1; }
         }
 
+        /* Footer Styles */
+        .footer {
+            margin-top: 80px;
+            padding-top: 60px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-bottom: 50px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer-column {
+            text-align: left;
+        }
+
+        .footer-column h3 {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-link {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .footer-link:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .social-icon:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .footer-bottom-links {
+            margin-bottom: 20px;
+        }
+
+        .footer-bottom-links a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-bottom-links a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .copyright {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
         @media (max-width: 768px) {
             .container {
                 padding: 30px;
@@ -291,6 +416,16 @@
             .location-inputs {
                 grid-template-columns: 1fr;
             }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .footer-bottom-links a {
+                display: block;
+                margin: 10px 0;
+            }
         }
     </style>
 </head>
@@ -299,7 +434,10 @@
         <div id="main-page">
             <div class="header-section">
                 <div class="logo">🏠</div>
-                <h1>Home Design Chatbot</h1>
+                <h1 class="project-title">
+                    <span class="main-name">CodeAssist AI</span><br>
+                    <span class="tagline">Home Design ChatBot</span>
+                </h1>
                 <p class="subtitle">
                     Get professional guidance on home design, construction, and building codes. 
                     Ask questions about renovations, permits, and construction best practices with AI-powered expertise.
@@ -337,6 +475,39 @@
                     <span>Permit guidance</span>
                 </div>
             </div>
+
+            <!-- Footer Section -->
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <div class="footer-links">
+                            <a href="#" class="footer-link">Back To Top</a>
+                            <a href="#" class="footer-link">About Us</a>
+                            <a href="#" class="footer-link">Careers</a>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-icon" title="LinkedIn">in</a>
+                            <a href="#" class="social-icon" title="Instagram">📷</a>
+                            <a href="#" class="social-icon" title="Facebook">f</a>
+                            <a href="#" class="social-icon" title="Contact Us">✉️</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-bottom-links">
+                        <a href="#">All Rights Reserved</a>
+                        <a href="#">Cookies Policy</a>
+                        <a href="#">Privacy Statements</a>
+                        <a href="#">Terms of Use</a>
+                    </div>
+                    <div class="copyright">
+                        &copy; 2026 CodeAssist AI - Home Design ChatBot. All rights reserved.
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id="chat-page" class="chat-interface">
@@ -363,6 +534,8 @@
         </div>
     </div>
 
+    <!-- load markdown renderer for formatting AI responses -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
         let sessionId = 'session-' + Math.random().toString(36).substr(2, 9);
 
@@ -462,7 +635,12 @@
             const chatContainer = document.getElementById('chatContainer');
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${sender}-message`;
-            messageDiv.textContent = text;
+            if (sender === 'bot' && window.marked) {
+                // render markdown for bot responses
+                messageDiv.innerHTML = marked.parse(text);
+            } else {
+                messageDiv.textContent = text;
+            }
             
             // Adjust width based on content length for user messages
             if (sender === 'user') {

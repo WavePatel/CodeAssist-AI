@@ -50,7 +50,13 @@ Guidelines:
 6. Use plain English, avoid overly technical jargon
 7. If you don't know something specific, say so and suggest where to find the information
 
-Respond in a helpful, professional tone. Keep responses concise but comprehensive."""
+Respond in a helpful, professional tone. Keep responses concise but comprehensive.
+
+**Formatting requirements:**
+- **Return your answer in Markdown**. Use headings, bullet points ("-" or "*"), and numbered lists where appropriate.
+- Keep paragraphs short; separate them with a blank line.
+- Do not include any extraneous preamble such as "Sure," "Here is what you requested," or other conversational fluff.
+"""
     
     def _format_conversation_history(self, history: List[Dict[str, Any]]) -> List[Dict[str, str]]:
         """Format conversation history for OpenAI API"""
@@ -109,7 +115,9 @@ Respond in a helpful, professional tone. Keep responses concise but comprehensiv
             if not response.choices or not response.choices[0].message:
                 raise Exception("No response generated from OpenAI")
             
-            return response.choices[0].message.content.strip()
+            text = response.choices[0].message.content.strip()
+            # post-process formatting for readability
+            return self._postprocess_response(text)
             
         except Exception as e:
             logger.error(f"Error generating OpenAI response: {str(e)}")
@@ -127,4 +135,24 @@ Respond in a helpful, professional tone. Keep responses concise but comprehensiv
         except Exception as e:
             logger.error(f"OpenAI connection test failed: {str(e)}")
             return False
+
+    def _postprocess_response(self, text: str) -> str:
+        """Clean up and normalize the model response for better formatting"""
+        import re
+
+        # collapse multiple spaces
+        cleaned = re.sub(r"[ \t]+", " ", text).strip()
+
+        lines = cleaned.splitlines()
+        formatted_lines: list[str] = []
+        for line in lines:
+            stripped = line.strip()
+            if not stripped:
+                formatted_lines.append("")
+                continue
+            if stripped.startswith("*"):
+                formatted_lines.append("- " + stripped.lstrip("*").strip())
+            else:
+                formatted_lines.append(stripped)
+        return "\n".join(formatted_lines)
 

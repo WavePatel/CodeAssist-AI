@@ -1,0 +1,15 @@
+[
+  {
+    "role": "user",
+    "content": "What permits do I need for a new house?",
+    "location": {
+      "zip": "95112",
+      "country": "US"
+    },
+    "user_type": null
+  },
+  {
+    "role": "assistant",
+    "content": "### Permits for a New House in San Jose (95112)\n\nBuilding a new house in San Jose, California (zip code 95112) requires a comprehensive set of permits and approvals. This ensures your project complies with local zoning ordinances, building codes, and safety standards.\n\n#### Key Permits Required:\n\n1. **Zoning/Planning Approval:**\n- This is typically the first step. Your project must comply with the City of San Jose's zoning ordinances, which dictate setbacks, height limits, lot coverage, density, and design guidelines.\n- May require **Design Review** or **Site Plan Review** to ensure aesthetic and functional compliance.\n\n2. **Building Permit:**\n- The primary permit covering all aspects of construction. It ensures your plans meet the California Building Code (CBC) and local amendments. This includes:\n- **Structural:** Foundation, framing, load-bearing elements.\n- **Electrical:** Wiring, outlets, lighting, service connections.\n- **Plumbing:** Water supply, drainage, fixtures, sewer/septic connections.\n- **Mechanical:** HVAC systems, ventilation.\n- **Energy Efficiency:** Compliance with California's Title 24 Energy Code.\n- **Fire & Life Safety:** Egress, smoke detectors, fire-rated assemblies.\n\n3. **Other Potential Permits:**\n- **Grading Permit:** Required if significant earthwork, excavation, or fill is involved.\n- **Utility Connection Permits:** For new connections to public water, sewer, gas, and electrical services. These are often managed by the respective utility companies but require city approval.\n- **Public Works/Encroachment Permits:** If construction impacts public rights-of-way, such as sidewalks, curbs, driveways, or street trees.\n- **Tree Removal Permit:** If protected or heritage trees on the property need to be removed.\n- **Environmental Review:** Depending on the project's scale and site specifics, an environmental assessment may be necessary.\n\n#### Essential Steps & Advice:\n\n- **Consult Local Authorities FIRST:** **Immediately contact the City of San Jose's Department of Planning, Building, and Code Enforcement.** They are your definitive source for specific requirements, application procedures, and current fees for 95112. Visit their official website or office.\n- **Professional Help is Crucial:** Engage a licensed architect or design professional to draw up plans and navigate the complex permitting process. A licensed general contractor is also essential for construction. They ensure plans meet all codes.\n- **Safety and Code Compliance:** Adherence to all California Building Codes (CBC) and local ordinances is non-negotiable for safety and structural integrity.\n- **Budgeting:** Factor in significant costs for permit fees, plan check fees, and potential impact fees into your overall project budget. These can be substantial."
+  }
+]

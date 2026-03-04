@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 
 3) Configure environment
-Create `.env` from `.env.example` and set values.
+Create `.env` from `.env.example` and set values. At minimum you should set `GEMINI_API_KEY`; optionally override `GEMINI_MODEL` if you need a specific Gemini model name (the default is `gemini-2.5-flash`).
 
 4) Run the server
 ```bash
@@ -42,7 +42,10 @@ curl -X POST http://localhost:8000/chat \
 ```
 
 ### Environment
-See `.env.example` for required variables.
+See `.env.example` for required variables. If you encounter a `500` error complaining about a missing model (`models/... not found`), update `GEMINI_MODEL` in your `.env` to a valid model from the Gemini API (use `genai.list_models()` or the documentation to see available names).
+
+### Response Formatting Enhancements
+The chatbot now instructs Gemini/OpenAI to return answers in **Markdown format** with headings, bullets, and numbered lists. Responses are post‑processed on the server to normalize spacing and bullet styles. The web UI renders markdown using [marked.js](https://marked.js.org), giving you nicely formatted replies out of the box.
 
 ### Project Structure
 ```text

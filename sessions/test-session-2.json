@@ -2,4 +2,15 @@
   {
     "role": "user",
     "content": "Hello, can you help me with permits?",
-    "location": 
+    "location": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95112",
+      "country": "US"
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "For permits, you'll need to check with your local building department. Requirements vary by location. I can provide general guidance, but always verify with local authorities."
+  }
+] 

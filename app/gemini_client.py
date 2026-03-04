@@ -14,12 +14,24 @@ class GeminiClient:
     """Client for interacting with Google's Gemini API"""
     
     def __init__(self):
+        # decide between demo and real mode based on key
         if config.settings.gemini_api_key == "demo_key_placeholder":
             self.model = None
             self.demo_mode = True
         else:
             genai.configure(api_key=config.settings.gemini_api_key)
-            self.model = genai.GenerativeModel('gemini-1.5-flash')
+            # allow model override via environment variable
+            model_name = config.settings.gemini_model
+            try:
+                self.model = genai.GenerativeModel(model_name)
+            except Exception as e:
+                # if the model cannot be instantiated, log a clear warning
+                logger.error(f"Failed to initialize Gemini model '{model_name}': {e}")
+                # fall back into demo mode so the service still starts
+                self.model = None
+                self.demo_mode = True
+                return
+
             self.demo_mode = False
     
     def _build_system_prompt(self, location: Optional[schemas.Location] = None, user_type: Optional[str] = None) -> str:
@@ -60,6 +72,11 @@ Guidelines:
 7. If you don't know something specific, say so and suggest where to find the information
 
 CRITICAL: Your response MUST be under 500 words. Provide ONLY the most essential information. Use bullet points and be extremely concise. Stop at 500 words maximum.
+
+**Formatting requirements:**
+- **Return your answer in Markdown**. Use headings, bullet points ("-" or "*"), and numbered lists where appropriate.
+- Keep paragraphs short; separate them with a blank line.
+- Do not include any extraneous preamble such as "Sure," "Here is what you requested," or other conversational fluff.
 
 Respond in a helpful, professional tone. Keep responses concise but comprehensive."""
     
@@ -139,14 +156,23 @@ Respond in a helpful, professional tone. Keep responses concise but comprehensiv
             final_words = response_text.split()
             print(f"Final response: {len(final_words)} words")
             
+            # post-process formatting for readability
+            response_text = self._postprocess_response(response_text)
             return response_text
             
         except Exception as e:
             # Log the original exception
             logger.error(f"Error generating Gemini response: {str(e)}")
             msg = str(e)
-            # Detect common API key/authentication issues and give user-friendly guidance
             lowered = msg.lower()
+            # model not found errors are common when the default changes
+            if "404" in msg and "models/" in msg:
+                raise Exception(
+                    f"Configured Gemini model '{config.settings.gemini_model}' not found or unsupported. "
+                    "Update GEMINI_MODEL in your .env or use a valid model name. "
+                    "Call ListModels to see available options."
+                )
+            # Detect common API key/authentication issues and give user-friendly guidance
             if "401" in msg or "api key" in lowered or "unauthorized" in lowered:
                 raise Exception("Gemini API key invalid or unauthorized. Please verify your GEMINI_API_KEY in your environment.")
             # Otherwise propagate general failure
@@ -186,3 +212,28 @@ Respond in a helpful, professional tone. Keep responses concise but comprehensiv
         except Exception as e:
             logger.error(f"Gemini connection test failed: {str(e)}")
             return False
+
+    def _postprocess_response(self, text: str) -> str:
+        """Clean up and normalize the model response for better formatting"""
+        import re
+
+        # collapse multiple spaces
+        cleaned = re.sub(r"[ \t]+", " ", text).strip()
+
+        lines = cleaned.splitlines()
+        formatted_lines: list[str] = []
+        for line in lines:
+            stripped = line.strip()
+            if not stripped:
+                # preserve blank lines
+                formatted_lines.append("")
+                continue
+
+            # normalize bullets starting with '*' to '-' for consistency
+            if stripped.startswith("*"):
+                formatted_lines.append("- " + stripped.lstrip("*").strip())
+            else:
+                formatted_lines.append(stripped)
+
+        return "\n".join(formatted_lines)
+

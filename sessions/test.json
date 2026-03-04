@@ -1,0 +1,15 @@
+[
+  {
+    "role": "user",
+    "content": "hello",
+    "location": {
+      "zip": "95112",
+      "country": "US"
+    },
+    "user_type": null
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! Welcome to your home design and building code consultant chatbot. I'm here to assist you with your projects in the 95112 area.\n\nI can provide guidance on a range of topics, including:\n*   **Home design and renovation** best practices\n*   **Building codes and regulations** (general principles, always verify locally)\n*   **Construction best practices** and material recommendations\n*   **Permits and zoning** (general advice; specific requirements are local)\n*   **Safety considerations**\n*   **Cost estimates and budgeting** (general guidance)\n\nTo give you the most accurate and actionable advice, please tell me about your project or specific questions.\n\n**Important Reminders:**\n*   **Local Authorities:** Always consult the City of San Jose Planning Department and Building Division for precise, up-to-date codes, permit requirements, and zoning regulations specific to your property in 95112.\n*   **Professional Help:** For structural changes, complex projects, or when required by code, hire licensed architects, engineers, and contractors.\n*   **Safety First:** Prioritize safety in all stages of your project.\n\nHow can I help you today?"
+  }
+]

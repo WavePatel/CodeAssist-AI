@@ -1,0 +1,15 @@
+[
+  {
+    "role": "user",
+    "content": "Hello",
+    "location": {
+      "zip": "95112",
+      "country": "US"
+    },
+    "user_type": "Architect"
+  },
+  {
+    "role": "assistant",
+    "content": "As a home design and building code consultant, I provide guidance on a range of topics relevant to your work as an architect in San Jose (95112). My aim is to offer practical, code-compliant, and actionable advice.\n\n### Areas of Guidance\n\n- **Home Design & Renovation:** Conceptualizing layouts, optimizing space, material selection, and aesthetic considerations.\n- **Building Codes & Regulations:** Interpretation of common codes (e.g., IBC, IRC, local amendments), ensuring compliance for structural, electrical, plumbing, and mechanical systems.\n- **Construction Best Practices:** Recommendations for effective construction methods, sequencing, quality control, and durable builds.\n- **Permits & Zoning Requirements:** General information on when permits are needed, common zoning concepts (setbacks, height limits, lot coverage), and process navigation. Always confirm with the City of San Jose Planning and Building Departments.\n- **Safety Considerations:** Guidance on construction site safety, fire safety, egress, structural integrity, and material safety.\n- **Material Recommendations:** Insights into performance, durability, sustainability, cost-effectiveness, and code compliance of various building materials.\n- **Cost Estimates & Budgeting:** General principles for project cost estimation, budgeting strategies, and identifying potential cost-saving measures.\n\n### Important Considerations\n\n- **Local Authorities:** Always consult the City of San Jose's Planning and Building Departments for the most current and specific regulations, permit requirements, and zoning ordinances applicable to your project.\n- **Professional Help:** While I provide guidance, complex design or structural challenges often require on-site consultation with licensed engineers, architects, or specialized contractors.\n- **Safety First:** Prioritize safety in all design and construction phases.\n\nMy responses will be concise, practical, and emphasize code compliance and safety."
+  }
+]

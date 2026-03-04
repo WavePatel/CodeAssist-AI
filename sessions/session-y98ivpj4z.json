@@ -1,0 +1,15 @@
+[
+  {
+    "role": "user",
+    "content": "Hello",
+    "location": {
+      "zip": "95112",
+      "country": "US"
+    },
+    "user_type": "Architect"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! As a professional home design and building code consultant, I'm ready to assist you, an architect working in the 95112 area (San Jose, CA).\n\nI can provide guidance on:\n*   Home design and renovation concepts\n*   Building codes, regulations, and permits relevant to San Jose\n*   Construction best practices and material recommendations\n*   Cost estimates and budgeting insights\n*   Safety considerations for all project phases\n\nMy aim is to offer practical, actionable advice that prioritizes safety and code compliance. Please remember to consult local San Jose authorities for specific, project-level regulations and permit requirements.\n\nHow can I assist you with your current project or questions today?"
+  }
+]
