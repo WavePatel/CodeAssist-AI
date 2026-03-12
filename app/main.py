@@ -51,6 +51,48 @@ async def read_root():
     """Serve the main HTML page"""
     return FileResponse('static/index.html')
 
+
+@app.get("/about")
+async def read_about():
+    """Serve the About Us page"""
+    return FileResponse('static/about.html')
+
+
+@app.get("/careers")
+async def read_careers():
+    """Serve the Careers page"""
+    return FileResponse('static/careers.html')
+
+
+@app.get("/contact")
+async def read_contact():
+    """Serve the Contact Us page"""
+    return FileResponse('static/contact.html')
+
+
+@app.get("/all-rights")
+async def read_all_rights():
+    """Serve the all rights page"""
+    return FileResponse('static/all-rights.html')
+
+
+@app.get("/cookies-policy")
+async def read_cookies_policy():
+    """Serve the cookies policy page"""
+    return FileResponse('static/cookies-policy.html')
+
+
+@app.get("/privacy-statements")
+async def read_privacy_statements():
+    """Serve the privacy statements page"""
+    return FileResponse('static/privacy-statements.html')
+
+
+@app.get("/terms-of-use")
+async def read_terms_of_use():
+    """Serve the terms of use page"""
+    return FileResponse('static/terms-of-use.html')
+
 @app.get("/health")
 async def health_check():
     """Health check endpoint"""
